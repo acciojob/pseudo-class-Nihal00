@@ -1,7 +1,9 @@
-span:first-child {
-	color:red;
+div::before {
+	content: "Before Element ";
+	color: rgb(255, 0, 0);
 }
 
-span:last-child {
-	color: red;
+div::after {
+	content: " After Element";
+	color: rgb(255, 0, 0);
 }
